@@ -15,8 +15,8 @@ const { degrees, PDFDocument, rgb, StandardFonts } = PDFLib
     const pages = pdfDoc.getPages()
     const firstPage = pages[0]
 
-    var ID = document.getElementById("ID").toUpperCase();
-    var name = document.getElementById("name").toUpperCase();
+    var ID = document.getElementById("ID");
+    var name = document.getElementById("name");
     var contact = document.getElementById("contact");
     var room = document.getElementById("room");
     var hostel = document.getElementById("hostel");
@@ -31,14 +31,14 @@ const { degrees, PDFDocument, rgb, StandardFonts } = PDFLib
     // Get the width and height of thne first page
     const { width, height } = firstPage.getSize()
     console.log(width, height)
-    firstPage.drawText(ID.value, {
+    firstPage.drawText(ID.value.toUpperCase(), {
         x: 302,  
         y: 710, 
         size: 12.2,
         font: helveticaFont,
         color: rgb(0, 0, 0)
     })
-    firstPage.drawText(name.value, {
+    firstPage.drawText(name.value.toUpperCase(), {
         x: 302,  
         y: 688,  
         size: 12.2,
