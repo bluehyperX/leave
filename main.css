@@ -3,20 +3,16 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-  }
-  
-  p {
     font-family: helvetica;
-    font-size: 24px;
+    font-size: 20px;
     text-align: center;
-    margin: 25px;
   }
   
   .small {
     font-family: helvetica;
     font-size: 18px;
     text-align: center;
-    margin: 25px;
+    margin-right: 90px;
   }
   
   button {
@@ -27,6 +23,10 @@ body {
     text-align: center;
     font-size: 16px;
     margin: 8PX;
+  }
+
+  button:hover {
+    background-color: #00bd06;
   }
 
   input[type=text], select {
@@ -60,7 +60,13 @@ body {
   
   div {
     border-radius: 5px;
-    padding: 20px;
+    padding: 15px;
     max-width: 380px;
     text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 6px;
   }
