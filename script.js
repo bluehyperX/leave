@@ -88,6 +88,6 @@ const { degrees, PDFDocument, rgb, StandardFonts } = PDFLib
         color: rgb(0, 0, 0)
     })
     const pdfBytes = await pdfDoc.save()
-    download(pdfBytes, ID.value+'.pdf', 'application/pdf');
+    download(pdfBytes, ID.value.toUpperCase()+'.pdf', 'application/pdf');
     }
 
