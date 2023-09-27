@@ -26,7 +26,7 @@ const { degrees, PDFDocument, rgb, StandardFonts } = PDFLib
     var departuredate = new Date(departure);
     var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     var wardens = ['Trilok Mathur','Rajesh Kumar', 'Srinivas Appari', 'Nitin Chaturvedi', 'Krishnendra Shekhawat', 'Surekha Bhanot', 'Kumar Sankar Bhattacharya', 'Praveen Kumar A.V.', 'MM Pandey', 'Sharad Shrivastava']
-    var hostels = ['MSA Bhawan','Srinivasa Ramanujan Bhawan', 'Krishna Bhawan', 'Gandhi Bhawan', 'Vishwakarma Bhawan', 'Meera Bhawan', 'Shankar Bhawan', 'Vyas Bhawan', 'Ram Bhawan', 'Budh Bhawan']
+    var hostels = ['Malviya Bhawan','Srinivasa Ramanujan Bhawan', 'Krishna Bhawan', 'Gandhi Bhawan', 'Vishwakarma Bhawan', 'Meera Bhawan', 'Shankar Bhawan', 'Vyas Bhawan', 'Ram Bhawan', 'Budh Bhawan']
 
     // Get the width and height of thne first page
     const { width, height } = firstPage.getSize()
